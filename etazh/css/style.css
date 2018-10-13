@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=cyrillic-ext');
+
+body, input {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+
+html {
+  background-color: #cccccc;
+}
+
+body {
+  padding: 1vw;
+  background-color: #f6f6f6;
+  height: 100%;
+}
+
+body.toolbar-horizontal {
+  margin-top: 7vw;
+  padding-top: 1vw !important;
+}
+
+/* Убираем голубые рамки в Opera */
+
+input:focus,
+a:focus {
+  outline: 0;
+}
+
+.user-control-menu {
+  float: right;
+  margin-top: -2vw;
+}
+
+.user-control-menu  strong {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+.contextual .contextual-links li a {
+  color: black !important;
+  font-size: 0.8em !important;
+  background: transparent !important;
+  padding: 0.4em 0.6em !important;
+  display: block;
+}
+
+#block-etazh-main-menu {
+  background: rgba(0,0,0,0.8);
+  margin: 1vw -1.2vw 0;
+  padding: 0.5vw 2vw;
+}
+
+#block-etazh-main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#block-etazh-main-menu ul li {
+  display: inline-block;
+  margin-right: 1vw;
+}
+
+#block-etazh-main-menu ul li a {
+  color: #FFFFFF;
+}
+
+.cpath-user-login #block-etazh-page-title {
+  text-align: center;
+  display: none;
+}
+
+.cpath-user-login #block-etazh-content {
+  margin-top: 20vh;
+}
+
+#comment-form #edit-comment-body-wrapper .form-wrapper,
+.comments-area .comment-comment-form .field--name-comment-body label,
+#edit-actions #edit-preview {
+  display: none;
+}
+
+#comment-form .button {
+  font-size: 1em;
+  background: #ccc;
+  border: none;
+  margin-top: 2vw;
+  cursor: pointer;
+  border-radius: 2vw;
+  padding: 0.5vw 1vw;
+}
+
+#block-etazh-branding a img {
+  width: 1.6vw;
+}
+
+#block-etazh-branding a {
+  text-decoration: none;
+  font-size: 2vw;
+  color: #000000;
+}
+
+#block-etazh-local-tasks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#block-etazh-local-tasks ul li {
+  display: inline-block;
+  padding: 1vw;
+}
+
+#block-etazh-local-tasks ul li a {
+  background: #999999;
+  padding: 0.5vw 1vw;
+  border-radius: 3vw;
+  color: white;
+  font-size: 80%;
+}
+
+#block-etazh-content #user-login-form {
+  width: 80%;
+  margin: auto;
+  font-size: 1vw;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#block-etazh-content #user-login-form .form-text {
+  margin: 1vw;
+  font-size: 1.5vw;
+  padding: 0.5vw;
+}
+
+#block-etazh-content #user-login-form .form-item-name label,
+#block-etazh-content #user-login-form .form-item-pass label,
+#block-etazh-content #user-login-form .description {
+  display: none;
+}
+
+#block-etazh-content #user-login-form .button {
+  border: none;
+  margin-top: 2vw;
+  font-size: 1em;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 2vw;
+  padding: 0.5vw 1vw;
+}
+
+#block-etazh-content .object-photos div {
+  float: left;
+  margin-right: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+#block-etazh-content .object-description,
+#block-etazh-content .inline-field,
+#block-etazh-content .comments-area,
+.separator {
+  float: none;
+  clear: both;
+}
+
+.layout-sidebar-first,
+.layout-content,
+.layout-sidebar-second {
+  float: left;
+}
+
+.layout-sidebar-first,
+.layout-sidebar-second {
+  width: 20%;
+}
+
+.layout-content {
+  width: 54%;
+  padding: 0 2% 2% 2%;
+  background: rgba(0,0,0,0.02);
+  margin: 0 1%;
+}
+
+.layout-content.no-sidebar {
+  width: 100%;
+  padding: 0;
+  background: transparent;
+}
+
+.loginid-0 #block-etazh-content {
+  margin-bottom: 20vh;
+}
+
+#block-etazh-content .inline-field div {
+  float: left;
+  margin-right: 0.5vw;
+}
+
+.comments-area {
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+}
+
+.comments-area h3,
+.links.inline .comment-forbidden,
+.links.inline .comment-add {
+  display: none;
+}
+
+.comments-area .links.inline {
+  margin: 0;
+  text-align: right;
+}
+
+.comments-area .links.inline li {
+  display: inline-block;
+  margin-right: 1vw;
+  font-size: 80%;
+}
+
+.comments-area .links.inline li a {
+  color: #000000;
+}
+
+.comments-area .links.inline li.comment-reply {
+  display: none;
+}
+
+.comments-area p.submitted {
+  font-size: 80%;
+}
+
+.comments-permalink {
+  text-align: right;
+  width: auto;
+  display: none;
+  float: right;
+}
+
+.comments-area .indented {
+  margin-left: 2vw;
+}
+
+#views-exposed-form-frontpage-page-2 {
+  background: rgba(0,0,0,0.2);
+  padding: 1vw;
+  margin: 0 0 0 -2.2vw;
+}
+
+
+
+#views-exposed-form-frontpage-page-2 .form-item-field-object-status-value {
+  width: 160px;
+  display: inline-block;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-uid-1,
+#views-exposed-form-frontpage-page-2 .form-item-uid,
+#views-exposed-form-frontpage-page-2 .form-item-field-city-block-target-id,
+#views-exposed-form-frontpage-page-2 .form-item-field-object-type-value,
+#views-exposed-form-frontpage-page-2 .form-item-nid,
+#views-exposed-form-frontpage-page-2 .form-item-field-object-expertise-value {
+  width: 180px;
+  display: inline-block;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-field-object-type-value,
+#views-exposed-form-frontpage-page-2 .form-item-field-city-block-target-id,
+#views-exposed-form-frontpage-page-2 .form-item-field-object-status-value {
+  width: 150px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-field-object-type-value select,
+#views-exposed-form-frontpage-page-2 .form-item-field-city-block-target-id select,
+#views-exposed-form-frontpage-page-2 .form-item-field-object-status-value select {
+  width: 90px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-nid {
+  width: 100px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-field-object-expertise-value {
+  width: 180px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-field-object-expertise-value select {
+  width: 90px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-nid input {
+  width: 60px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-field-city-block-target-id {
+  width: 190px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-field-object-type-value {
+  width: 140px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-uid-1 input,
+#views-exposed-form-frontpage-page-2 .form-item-uid input {
+  width: 110px;
+}
+
+#views-exposed-form-frontpage-page-2 .form-item-uid .description,
+#views-exposed-form-frontpage-page-2 .form-item-uid-1 .description {
+  display: none;
+}
+
+#views-exposed-form-frontpage-page-2 #edit-actions {
+  width: auto;
+  display: inline-block;
+}
+
+#views-exposed-form-frontpage-page-2 #edit-actions input {
+  border: none;
+  border-radius: 2vw;
+  font-size: 1vw;
+  background: rgba(0,0,0,0.5);
+  color: #FFFFFF;
+  padding: 0.2vw 1vw;
+  cursor: pointer;
+  margin-left: 1vw;
+}
+
+.path-objects #block-etazh-content .views-row {
+  border-bottom: 1px dashed #CCCCCC;
+  padding: 1vw;
+}
+
+.path-objects #block-etazh-content .views-row:last-child {
+  border-bottom: none;
+}
+
+.page-node-type-object .node-object-edit-form .field--name-title,
+.page-node-type-object .node-object-edit-form .field--name-body,
+.page-node-type-object .node-object-edit-form .field--name-field-object-photo,
+.page-node-type-object .node-object-edit-form .field--name-field-object-realtor,
+.page-node-type-object .node-object-edit-form .field--name-field-object-lawyer,
+.page-node-type-object .node-object-edit-form .field--name-field-city-block,
+.page-node-type-object .node-object-edit-form .field--name-field-address,
+.page-node-type-object .node-object-edit-form .field--name-field-object-docs,
+.page-node-type-object .node-object-edit-form .field--name-field-object-status,
+.page-node-type-object .node-object-edit-form .js-form-type-vertical-tabs,
+.page-node-type-object .node-object-edit-form .form-item-field-object-type {
+  display: none;
+}
+
+.page-node-type-object .node-object-edit-form #edit-actions {
+  margin: 2vw 0;
+}
+
+.page-node-type-object .node-object-edit-form #edit-actions input {
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 2vw;
+  background: rgba(0,0,0,0.1);
+  padding: 0.5vw 1vw;
+}
+
+.page-node-type-object #block-views-block-frontpage-block-2 .field-content a .doc-title,
+.page-node-type-object #block-views-block-frontpage-block-2 .field-content a {
+  display: block;
+  text-align: center;
+  font-size: 90%;
+}
+
+.page-node-type-object #block-views-block-frontpage-block-2 .field-content a {
+  margin-bottom: 1vw;
+  width: 50%;
+  float: left;
+  text-decoration: none;
+  color: black;
+}
+
+.layout-container {
+  margin: 0;
+}
+
+.copyright-area {
+  background: rgba(0,0,0,0.8);
+  color: #cccccc;
+  margin: 0 -1.2vw;
+  padding: 1vw;
+  font-size: 80%;
+}
+
+.copyright-area .help-area {
+  margin-top: 0.5vw;
+}
+
+.copyright-area .help-area a {
+  color: #FFFFFF;
+}
+
+.avatar {
+  float: left;
+  margin-right: 1vw;
+}
+
+.avatar img {
+  width: 4vw;
+  height: auto;
+  border-radius: 20vw;
+  border: 2px solid white;
+}
+
+.node-preview-container  {
+  position: absolute;
+  background: red;
+  left: 0;
+}
+
+h1 .object-id {
+  font-size: 60%;
+  display: inline-block;
+  margin-left: 0.5vw;
+  position: absolute;
+  opacity: 0.6;
+}
+
+#views-exposed-form-frontpage-page-2,
+#block-etazh-main-menu,
+.copyright-area,
+#etazhmodule-objects-form {
+  border-left: 8px solid rgba(26,118,149, 0.5);
+}
+
+#views-exposed-form-frontpage-page-2,
+#etazhmodule-objects-form {
+  border-color: rgba(254,164,0, 0.5);
+}
+
+#block-views-block-frontpage-block-1 .views-row {
+  margin-bottom: 0.5vw;
+  font-size: 80%;
+  display: block;
+  float: none;
+  clear: both;
+}
+
+#block-views-block-frontpage-block-1 .views-row .object-arrow {
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+
+#block-views-block-frontpage-block-1 .views-row .object-info {
+  display: inline-block;
+  float: left;
+  width: 90%;
+}
+
+#block-etazhobjectsblock {
+  margin-bottom: 2vw;
+}
+
+#etazhmodule-objects-form {
+  background: rgba(0,0,0,0.2);
+  padding: 0.5vw;
+  margin: 0 -1.2vw;
+  margin-bottom: 2vw;
+  font-size: 75%;
+  padding-right: 0;
+}
+
+#block-etazhobjectsblock .form-item-object-id,
+#block-etazhobjectsblock .form-item-expertise {
+  display: inline-block;
+}
+
+#block-etazhobjectsblock .form-item-object-id #edit-object-id {
+  width: 4vw;
+}
+
+#block-etazhobjectsblock .form-actions {
+  padding-left: 0.3vw;
+  display: inline-block;
+}
+
+#block-etazhobjectsblock a.more-filter {
+  color: black;
+  font-size: 70%;
+  text-decoration: none;
+  border-bottom: 1px dashed #000000;
+  margin-top: -1.7vw;
+  width: auto;
+  display: inline-block;
+  float: right;
+  margin-bottom: 2vw;
+}
+
+#block-etazhobjectsblock .form-actions .form-submit {
+  background: url('../logo.png') transparent no-repeat center center;
+  background-size: 16px;
+  text-indent: -9999px;
+  border: none;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#block-etazhobjectsblock .object-row {
+  margin-bottom: 0.5vw;
+  display: block;
+  float: none;
+  clear: both;
+  font-size: 80%;
+}
+
+#block-etazhobjectsblock .object-row .object-arrow {
+  display: inline-block;
+  float: left;
+  width: 10%;
+}
+
+#block-etazhobjectsblock .object-row .object-info {
+  display: inline-block;
+  float: left;
+  width: 90%;
+}
+
+#comment-form {
+  float: none;
+  clear: both;
+  margin-top: 2vw;
+}
+
+.cpath-objects .views-field-title a {
+  font-size: 120%;
+  margin-bottom: 0.5vw;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.message-area {
+  display: none;
+  border-left: 12px solid #d40000;
+  background: #FFF;
+  position: fixed;
+  top: 40%;
+  left: 20%;
+  z-index: 1000;
+  width: 60%;
+  height: 20%;
+  box-shadow: 5px 7px 22px 0px #666;
+}
+
+.message-area div {
+  padding: 1vw;
+}
+
+.message-area ul {
+  list-style: none;
+}
+
+.message-area .close {
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  top: 1vw;
+  right: 1.5vw;
+  font-size: 2vw;
+  font-family: Verdana;
+  color: #999999;
+}

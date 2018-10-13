@@ -1,0 +1,10 @@
+etazh_email: admin@16etazh.ru
+etazh_phone: 112
+etazh_facebook: facebook.com
+etazh_instagram: instagram.com
+etazh_vk: vk.com
+etazh_copyrights: Copyrights 16etazh.ru
+
+logo:
+  path: 'themes/etazh/logo.png'
+  use_default: false

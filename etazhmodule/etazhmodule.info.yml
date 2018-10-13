@@ -1,0 +1,9 @@
+name: Etazhmodule
+type: module
+description: Customizes etazh Display.
+core: 8.x
+version: 1.0
+package: Custom
+dependencies:
+  - drupal:block
+  - drupal:node
