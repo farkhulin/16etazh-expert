@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+.comments-area article div div p {
+  margin: 0.5vw 0 0;
+}
+
 #comment-form .button {
   font-size: 1em;
   background: #ccc;
@@ -238,6 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .comments-area p.submitted {
   font-size: 80%;
+  margin: 0;
 }
 
 .comments-permalink {
